@@ -1,0 +1,25 @@
+.biz-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.biz-in {
+    padding: 20px;
+    margin: 20px;
+    /* border: none; */
+    font-size: large;
+    border: thin solid #F74185;
+}
+
+.biz-form-div {
+    padding-top: 20px;
+}
+
+.dev-in {
+    width: 90%;
+}
+
+.dev-in-div {
+    display: flex;
+    flex-direction: row;
+}

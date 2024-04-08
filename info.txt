@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Aileron-Black
+font link: http://dotcolon.net/font/aileron/
+font author: dot colon
+font author site: http://dotcolon.net/
+
+
+icon designer: Kaylen Yul Lee
+icon designer link: /yuldle
+        
+{"bg":"#00acff","icon":"#010033","font":"#ffffff","slogan":"#ffffff"}
+      
