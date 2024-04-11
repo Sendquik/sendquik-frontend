@@ -21,19 +21,44 @@
             </div>
             <div class="biz-form-div">
                 <form class="biz-form">
-                    <input type="text" placeholder="Your Name" class="biz-in"/>
-                    <input type="text" placeholder="Your Business Name" class="biz-in"/>
-                    <input type="text" placeholder="Business Address" class="biz-in"/>
-                    <input type="text" placeholder="Phone Number" class="biz-in"/>
+                    <input type="text" placeholder="Your Name" class="biz-in" id="name"/>
+                    <input type="text" placeholder="Your Business Name" class="biz-in" id="bizname"/>
+                    <input type="text" placeholder="Business Address" class="biz-in" id="bizAdd"/>
+                    <input type="text" placeholder="Phone Number" class="biz-in" id="phone"/>
                 </form>
             </div>
             <div>
                 <button class="biz-in" style="width: 90%; background-color: #F74185; font-size: 22;
                 font-weight: 800;
                 color: white;
-                border: none;">Continue<a href="./delivery.html"></a></button>
+                border: none;" onclick="data()" id="biz-bt">Continue</button>
+            </div>
+            <div class="popup" id="popup" style="display: none;">
+                <div class="popup-content">
+                    <span class="close" id="closePopupBtn">&times;</span>
+                    <h2 style="color: #9D0700; text-align: center; font-size: 1.8em; margin-bottom: 2em;">LAUNCHING SOON...</h2>
+                    <p class="pop-text">While we're finalizing our platform, we're excited to start working with you at Sendquik Technologies Limited. Our team will contact you soon to discuss your needs.</p>
+                    <p class="pop-text">For any questions or assistance, feel free to chat with us on WhatsApp.</p>
+                    <p class="pop-text">Best Regards,</p>
+                    <p class="pop-text">Sendquik Technologies Limited</p>
+                    <div style="margin-top: 30px; padding: 1em 0;">
+                        <button style="padding: 20px;
+                        width: 100%;
+                        font-size: larger;
+                        background-color: #F74185;
+                        color: white;
+                        font-weight: 800;
+                        border: none;" onclick="WhatsApp()">Chat On WhatsApp</button>
+                    </div>
+                    <script>
+                        function WhatsApp() {
+                            window.location.href = 'https://wa.link/4gbcll'
+                        }
+                    </script>
+                </div>
             </div>
         </div>
     </div>
+    <script src="./data.js"></script>
 </body>
 </html>
